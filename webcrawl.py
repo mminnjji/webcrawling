@@ -41,12 +41,12 @@ except Exception as e:
     exit()
 
 # 로그인 후 원하는 페이지로 이동
-start_url = 'https://pass25.com/course/%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4%ea%b3%b5%ed%95%99-%ea%b8%b0%eb%b3%b8-%ec%9d%b4%eb%a1%a0/%ec%86%8c%ea%b3%b5_%ec%a3%bc%ec%a0%9c_%ea%b5%ad%ec%a0%9c%ed%91%9c%ec%a4%80-2/'
+start_url = 'https://pass25.com/course/%ec%a0%95%eb%b3%b4%eb%b3%b4%ed%98%b8%eb%a1%a0-%ea%b8%b0%eb%b3%b8-%ec%9d%b4%eb%a1%a0/%ec%a0%95%eb%b3%b4_%ec%a3%bc%ec%a0%9c_%ec%9e%ac%ed%95%b4%eb%b3%b5%ea%b5%ac/'
 driver.get(start_url)
 time.sleep(3)
 
 # 동영상 링크를 저장할 파일
-output_file = 'output.txt'
+output_file = 'jeongboboho.txt'
 
 # 페이지 HTML 저장
 def extract_video_link():
